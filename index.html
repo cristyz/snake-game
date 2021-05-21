@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,14 @@
     <script defer src="script.js"></script>
     <title>Snake Game</title>
 </head>
+
 <body>
     <h1>SNAKE GAME!</h1>
     <canvas id="snake" width="512" height="512"></canvas>
+    <div class="modal-content">
+        <h3 id="gameOver">Game Over!</h3>
+        <span id="restart" onclick="restart()">Restart</span>
+    </div>
 </body>
+
 </html>

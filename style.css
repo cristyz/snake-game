@@ -6,4 +6,29 @@ body{
     align-items: center;
     flex-direction: column;
     color: green;
+    transition: 0.5s ease-in-out all;
+}
+.modal-content{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#restart{
+    color: green;
+    cursor: pointer;
+}
+
+#gameOver{
+    color: red;
+    font-size: 16px;
 }
